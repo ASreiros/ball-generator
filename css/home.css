@@ -1,0 +1,38 @@
+.holder{
+    width:50vw;
+    margin-left: 25vw;
+    display: flex;
+    justify-content: space-evenly;
+    gap:10px;
+}
+
+form{
+    display: flex;
+    justify-content: space-evenly; 
+    gap:10px; 
+}
+
+select{
+    width:100px;
+    height: 20px;
+    border: 1px solid rgb(0, 0, 0);   
+}
+
+.ball-box{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.ball{
+    border-radius: 50%;
+    border: 1px rgb(0, 0, 0, 0.3) solid;
+    height:40px;
+    width:40px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    margin-left: 25px;
+}

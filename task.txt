@@ -1,0 +1,19 @@
+Apskritimukai TASK
+
+Reikalavimui JS kodui:
+turi būti sukurtas masyvas balls.
+Reikalavimui HTML:
+turi būti sukurti du laukeliai duomenims įvesti- spalvai ir numeriui; 
+vieta, kurioje bus atvaizduojami sukurti apskritimukai;
+du mygtukai- “sukurti naują” ir “ištrinti seniausią”.
+Klases ar kitus elementų atributus galite pridėti jeigu manote, kad jie jums yra reikalingi. Galite naudoti CSS tiek atskirame faile, tiek <style> viduje ar inline be jokių ribojimų.
+
+Kiekvienas apskritimukas yra objektas, turintis dvi savybes: color ir number. Kiekvienas sukurtas naujas objektas turi būti pridedamas į masyvą balls, o pats masyvas patalpinamas localStorage. 
+
+Mygtukas “sukurti naują” turi inicijuoti kodą, kuris perskaitytų duomenis iš laukelių ir pagal juos sukurtų naują objektą. 
+
+Masyvas turi būti atvaizduojamas vizualiai HTML’e. Jame esantys objektai turi būti atvaizduojami kaip atitinkamos spalvos apskritimai su numeriu viduryje.
+
+Mygtukas “ištrinti seniausią” turi inicijuoti kodą, kuris iš masyvo pašaliną seniausią apskritimuką (seniausias yra masyvo pradžioje)
+
+Pasikeitus masyvo elementams (pridėjus, ištrynus) vizualinis masyvo atvaizdas HTML’e turi keistis dinamiškai. Perkrovus puslapį, turi išlikti prieš tai įrašyti apskritimukai (informacija paimama iš localStorage)
